@@ -1,0 +1,8 @@
+# Cloudflare Pages 배포 설정. Vercel Blob 대신 Workers KV 를 쓴다(카드 등록 없이 무료).
+name = "ad-reference"
+compatibility_date = "2026-10-01"
+pages_build_output_dir = "site"
+
+[[kv_namespaces]]
+binding = "JOBS"
+id = "YOUR_KV_NAMESPACE_ID"

@@ -1,0 +1,9 @@
+.env*
+node_modules
+__pycache__
+*.bak*
+data
+logs
+site
+.vercel
+.wrangler
